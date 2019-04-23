@@ -1,0 +1,41 @@
+<div class="col-md-12">
+    <table class="table table-striped table-hovered table-bordered">
+      <tr>
+        <td>
+          <select name="select-agents" (change)="agentDetail()">
+            <option value="agent-one">Agent One</option>
+            <option value="agent-two">Agent Two</option>
+            <option value="agent-three">Agent Three</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>S.No</th>
+        <th>Agent Name</th>
+        <th>Applicant Name</th>
+        <th>Date</th>
+        <th>Phone Number</th>
+        <th>Email Id</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ashpi Negi</td>
+        <td>Pranay Verma</td>
+        <td>11-03-2019</td>
+        <td>8447426654</td>
+        <td>welcome@company.com</td>
+        <td><a routerLink="schedule" routerLinkClass="active" class="btn btn-fps">Schedule</a></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Sanyam Negi</td>
+          <td>Monu Goyal</td>
+          <td>11-03-2019</td>
+          <td>7982497503</td>
+          <td>abcdef@company.com</td>
+       
+          <td><a routerLink="schedule" routerLinkClass="active" class="btn btn-fps">Schedule</a></td>
+        </tr>
+    </table>
+    </div>

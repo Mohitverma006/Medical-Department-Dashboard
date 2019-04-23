@@ -1,0 +1,47 @@
+<div class="col-md-6 col-md-offset-3 adding-form-box">
+    <div class="col-md-12 box-heading-container">
+      <p>Schedule Applicant</p>
+    </div>
+    <div class="col-md-12 box-value-container">
+    <div class="col-md-12 form-group">
+      <label for="applicant-name">
+        Applicant Name
+      </label>
+      <input type="text" name="applicant-name" class="form-control" id="applicant-name" placeholder="Name" />
+  
+    </div>
+      <div class="col-md-12 form-group">
+          <label for="agent-name">
+            Agent Name
+          </label>
+          <input type="text" name="agent-name" class="form-control" id="agent-name" placeholder="Agent Name">
+      
+        </div>
+        <div class="col-md-12 form-group">
+          <label for="branch-name">
+            Branch Name
+          </label>
+          <input type="text" name="branch-name" class="form-control" id="branch-name" placeholder="Branch Name" />
+      
+        </div>
+        <div class="col-md-12 form-group">
+            <label for="passport-status">
+              Scheduled For
+            </label>
+            <input type="date" name="date" class="form-control" id="date" />
+        
+          </div>
+          <div class="col-md-12 form-group">
+              <label for="passport-status">
+                Message
+              </label>
+              <textarea name="address" [attr.disabled]="editStatus" class="form-control" id="address"></textarea>
+          
+            </div>
+              
+          <div class="col-md-12 form-group">
+             <a routerLink="#" routerLinkClass="active" class="btn btn-fps">Message</a>
+             
+          </div>
+          </div>
+  </div>
